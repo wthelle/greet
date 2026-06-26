@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Photos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="images">
+  <div class="frame frame-no-border frame-page-images">
+    <main class="page page-content page-images">
+      <h1 class="title title-sm">Our Memories 📸</h1>
+
+      <div class="carousel" aria-roledescription="carousel" aria-label="Photo memories">
+        <button class="carousel-btn carousel-prev" type="button" aria-label="Previous photo">‹</button>
+
+        <div class="carousel-viewport">
+          <div class="carousel-track">
+            <div class="carousel-slide">
+              <img src="image1.jpg" alt="Memory 1">
+            </div>
+            <div class="carousel-slide">
+              <img src="image2.jpg" alt="Memory 2">
+            </div>
+            <div class="carousel-slide">
+              <img src="image3.jpg" alt="Memory 3">
+            </div>
+            <div class="carousel-slide">
+              <img src="image4.jpg" alt="Memory 4">
+            </div>
+            <div class="carousel-slide">
+              <img src="image5.jpg" alt="Memory 5">
+            </div>
+            <div class="carousel-slide">
+              <img src="image6.jpg" alt="Memory 6">
+            </div>
+            <div class="carousel-slide">
+              <img src="image7.jpg" alt="Memory 7">
+            </div>
+            <div class="carousel-slide">
+              <img src="image8.jpg" alt="Memory 8">
+            </div>
+            <div class="carousel-slide">
+              <img src="image9.jpg" alt="Memory 9">
+            </div>
+            <div class="carousel-slide">
+              <img src="image10.jpg" alt="Memory 10">
+            </div>
+            <div class="carousel-slide">
+              <img src="image11.jpg" alt="Memory 11">
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-btn carousel-next" type="button" aria-label="Next photo">›</button>
+
+        <div class="carousel-dots" role="tablist" aria-label="Choose a photo"></div>
+      </div>
+
+      <a href="page2.html" class="btn btn-primary btn-back">← Go Back</a>
+    </main>
+  </div>
+  <audio id="images-song" src="daylight.mp3" loop preload="auto"></audio>
+  <script src="audio.js"></script>
+  <script src="carousel.js"></script>
+</body>
+</html>
